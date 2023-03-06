@@ -21,7 +21,7 @@ public class GestureCropImageView extends CropImageView {
 
     private float mMidPntX, mMidPntY;
 
-    private boolean mIsRotateEnabled = true, mIsScaleEnabled = true, mIsGestureEnabled = true;
+    private boolean mIsRotateEnabled = false, mIsScaleEnabled = true, mIsGestureEnabled = true;
     private int mDoubleTapScaleSteps = 5;
 
     public GestureCropImageView(Context context) {
