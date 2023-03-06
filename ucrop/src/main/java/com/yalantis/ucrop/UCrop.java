@@ -330,10 +330,8 @@ public class UCrop {
         /**
          * Choose what set of gestures will be enabled on each tab - if any.
          */
-        public void setAllowedGestures(@UCropActivity.GestureTypes int tabScale,
-                                       @UCropActivity.GestureTypes int tabRotate,
-                                       @UCropActivity.GestureTypes int tabAspectRatio) {
-            mOptionBundle.putIntArray(EXTRA_ALLOWED_GESTURES, new int[]{tabScale, tabRotate, tabAspectRatio});
+        public void setAllowedGestures(@UCropActivity.GestureTypes int tabAspectRatio) {
+            mOptionBundle.putIntArray(EXTRA_ALLOWED_GESTURES, new int[]{tabAspectRatio});
         }
 
         /**
