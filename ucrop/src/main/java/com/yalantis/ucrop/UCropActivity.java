@@ -324,8 +324,6 @@ public class UCropActivity extends AppCompatActivity {
             mLayoutScale = findViewById(R.id.layout_scale_wheel);
 
             setupAspectRatioWidget(intent);
-            setupRotateWidget();
-            setupScaleWidget();
             setupStatesWrapper();
         }
     }
